@@ -1,0 +1,116 @@
+/* General Body Styles & Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+ 
+/* Header & Hero Image */
+.hero {
+    /* Replace with your own image URL */
+    background-image: url('hero.jpg');
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+ 
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+ 
+.hero-content p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+ 
+.menu-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+ 
+/* Main Content & Sections */
+.content-section {
+    padding: 60px 0;
+}
+ 
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+ 
+.content-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+ 
+.text-center {
+    text-align: center;
+}
+ 
+.bg-light {
+    background-color: #f4f4f4;
+}
+ 
+/* Section 1 Layout */
+.flex-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+ 
+.flex-left {
+    flex-shrink: 0;
+}
+ 
+.flex-right p {
+    margin-bottom: 15px;
+}
+ 
+/* Placeholder Box Styles */
+.placeholder {
+    background-color: #4a4e69;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    max-width: 100%; /* Make placeholders responsive */
+}
+ 
+ 
+/* Footer */
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+ 
